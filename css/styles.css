@@ -375,6 +375,7 @@ img {
   gap: 24px;
 }
 .customers-items-list {
+  width: calc((100%-120px) / 6);
   width: 168px;
   height: 88px;
 }
