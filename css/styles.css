@@ -373,7 +373,6 @@ img {
 .customers-items {
   display: flex;
   gap: 24px;
-  /*justify-content: center;*/
 }
 .customers-items-list {
   width: 168px;
