@@ -54,7 +54,8 @@ img {
 .container {
   width: 1158px;
   margin: auto;
-  margin: auto;
+  padding: 0 15px;
+
   /*padding-left: 15px;
   padding-right: 15px;*/
 }
@@ -362,6 +363,8 @@ img {
 .customers-list {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0;
+  text-align: center;
 }
 .sec-name {
   font-size: 36px;
@@ -373,11 +376,19 @@ img {
 .customers-items {
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: space-between;
 }
 .customers-items-list {
-  width: calc((100%-120px) / 6);
-  width: 168px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
   height: 88px;
+  width: calc((100% - 120px) / 6);
+  /* width: 168px;
+  height: 88px;*/
 }
 .customers-items-link {
   width: 100%;
